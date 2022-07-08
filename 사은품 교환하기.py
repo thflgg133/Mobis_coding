@@ -11,3 +11,4 @@ for _ in range(T):
 
     ans = min(N_cnt, M_cnt) # 둘 중 최솟값 출력
     print(ans)
+    1
