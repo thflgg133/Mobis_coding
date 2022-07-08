@@ -13,3 +13,4 @@ for idx in range(K):
     ans = min(ans, front_cnt + back_cnt + 1) # 최솟값 갱신
 
 print(ans)
+1
