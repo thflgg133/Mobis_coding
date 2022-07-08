@@ -1,7 +1,11 @@
 import sys
+from collections import deque
 
-def bfs():
-    pass
+def bfs(i,j):
+    queue = deque([[i,j]])
+    
+    while queue:
+        x, y = queue.popleft()
 
 
 
@@ -15,4 +19,4 @@ dy = [0,-1,0,1]
 for i in range(W):
     for j in range(H):
         if maps[i][j] == 'S':
-            bfs()
+        bfs(i,j)
