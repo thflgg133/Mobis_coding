@@ -1,6 +1,6 @@
 import sys
-from itertools import combinations
 
+# dp 문제임
 N, K= map(int, sys.stdin.readline().split())
     
 nums = [i for i in range(N)]
