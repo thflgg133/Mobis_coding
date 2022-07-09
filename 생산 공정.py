@@ -18,7 +18,7 @@ for _ in range(K):
     result = sys.stdin.readline().rstrip()
     arr = []
     
-    for current in sorted(dict.keys()):
+    for current in dict.keys():
         state = True
         
         for j in range(len(result)):
